@@ -1,7 +1,7 @@
 function promptForPlayerName(playerone){
-   playerone= prompt("Please enter your name");
+   playerone= prompt("Player 2 enter your name.");
    if(playerone.length >15){
-       alert ("wow thats a long name");
+       alert ("Wow, that's a long name!");
    }
    return playerone;
 }
@@ -27,10 +27,10 @@ function tryThreePointShot(){
 }
 function getShotString(name, points, shotgood){
    if (shotgood){
-   return name+" attempted a "+points+" pointer. it was good";
+   return name+" attempted a "+points+" pointer. It was GOOD";
    }
    else{
-      return name+" attempted a "+points+" pointer. it was not good"; 
+      return name+" attempted a "+points+" pointer. It was NO GOOD"; 
    }
 }
 
